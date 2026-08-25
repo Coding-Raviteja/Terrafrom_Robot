@@ -1,0 +1,23 @@
+variable "comp" {
+    default = {
+        frontend = {
+            ami = "ami-08cd1a143ace74e19"
+            instance_type = "t2.micro" 
+        }
+
+        cart = {
+            ami = "ami-08cd1a143ace74e19"
+            instance_type = "t2.micro" 
+        }
+
+        user = {
+            ami = "ami-08cd1a143ace74e19"
+            instance_type = "t2.micro" 
+        }
+
+        catalog = {
+            ami = "ami-08cd1a143ace74e19"
+            instance_type = "t2.micro" 
+        }
+    } 
+}
