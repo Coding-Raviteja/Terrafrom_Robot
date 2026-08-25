@@ -7,7 +7,7 @@ variable "comp" {
 
         cart = {
             ami = "ami-08cd1a143ace74e19"
-            instance_type = "t2.micro" 
+            instance_type = "t3.micro" 
         }
 
         user = {
@@ -15,13 +15,14 @@ variable "comp" {
             instance_type = "t2.micro" 
         }
 
+        payment = {
+            ami = "ami-08cd1a143ace74e19"
+            instance_type = "t3.micro" 
+        }
+
         catalogue = {
             ami = "ami-08cd1a143ace74e19"
             instance_type = "t2.micro" 
-        }
-        payment = {
-            ami = "ami-08cd1a143ace74e19"
-            #instance_type = "t2.micro" 
         }
     } 
 }
