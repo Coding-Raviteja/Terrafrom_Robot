@@ -4,6 +4,6 @@ resource "aws_instance" "web" {
   instance_type = each.value.instance_type
 
   tags = {
-    Name = var.comp[each.key].name
+    Name = each.key
   }
 }
