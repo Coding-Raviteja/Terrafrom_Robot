@@ -3,7 +3,7 @@ data "aws_ami" "latest" {
 
   filter {
     name   = "name"
-    values = ["DevOps-LabImage-RHEL-2026"]
+    values = ["DevOps-LabImage-RHEL9-2026"]
   }
 
   owners = ["self"]
