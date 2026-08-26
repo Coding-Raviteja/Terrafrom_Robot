@@ -3,7 +3,7 @@ variable "instance_type" {
 }
 
 variable "instanceName" {
-  default = "Test_Create" 
+  default = "Test_Create1" 
 }
 
 variable "ami" {
