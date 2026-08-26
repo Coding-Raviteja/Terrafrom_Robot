@@ -5,7 +5,3 @@ variable "instance_type" {
 variable "instanceName" {
   default = "Test_Create1" 
 }
-
-variable "ami" {
-  default = "ami-08cd1a143ace74e19"
-}

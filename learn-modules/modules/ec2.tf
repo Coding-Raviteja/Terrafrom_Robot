@@ -1,5 +1,5 @@
 resource "aws_instance" "main" {
-    ami           = var.ami
+    ami           = data.aws_ami.latest.id
     instance_type = var.instance_type
 
     tags = {
