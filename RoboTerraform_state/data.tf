@@ -7,4 +7,5 @@ data "aws_ami" "latest" {
   }
 
   owners = ["355449129696"]
+  #owners = ["amazon"]
 }
