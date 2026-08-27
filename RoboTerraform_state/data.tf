@@ -6,5 +6,5 @@ data "aws_ami" "latest" {
     values = ["DevOps-LabImage-RHEL9-2026"]
   }
 
-  owners = ["self"]
+  owners = ["355449129696"]
 }
