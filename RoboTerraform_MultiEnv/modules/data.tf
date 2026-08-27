@@ -12,5 +12,5 @@ data "aws_ami" "latest" {
 #SG
 
 data "aws_security_group" "my_sg" {
-    name   = "launch-wizard-1"
+    name   = var.sg_name #["launch-wizard-1"]
 }
