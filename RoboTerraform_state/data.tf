@@ -3,6 +3,6 @@ data "aws_ami" "latest" {
 
   filter {
     name   = "name"
-    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
+    values = ["DevOps-LabImage-RHEL9-2026"]
   }
 }
