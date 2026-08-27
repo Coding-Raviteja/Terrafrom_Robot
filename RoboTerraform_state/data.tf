@@ -5,4 +5,6 @@ data "aws_ami" "latest" {
     name   = "name"
     values = ["DevOps-LabImage-RHEL9-2026"]
   }
+
+  owners = ["self"]
 }
