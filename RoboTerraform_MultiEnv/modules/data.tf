@@ -6,7 +6,7 @@ data "aws_ami" "my_ami" {
     values = ["${var.ami_name}"] #["DevOps-LabImage-RHEL9-2026"]
   }
 
-  owners = ["self"]
+  owners = ["355449129696"]
 }
 
 #SG
