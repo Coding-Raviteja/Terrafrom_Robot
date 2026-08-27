@@ -50,5 +50,3 @@ variable "comp" {
         }
     } 
 }
-
-var
