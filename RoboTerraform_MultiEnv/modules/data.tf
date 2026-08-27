@@ -8,3 +8,9 @@ data "aws_ami" "latest" {
 
   owners = ["self"]
 }
+
+#SG
+
+data "aws_security_group" "my_sg" {
+    name   = "launch-wizard-1"
+}
