@@ -4,4 +4,5 @@ module "ec2" {
   instance_type = var.instance_type
   env_name      = var.env_name
   ami           = var.ami
+  sg_name       = var.sg_name
 }
