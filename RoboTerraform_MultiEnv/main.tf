@@ -5,7 +5,7 @@ module "ec2" {
     name = each.key
     #comp = each.value
     ami_name = var.ami_name
-    instance_type = each.value.instance_type
+    instance_type = each.value.["instance_type"]
     sg_name       = var.sg_name
     env_name      = var.env_name
 }
