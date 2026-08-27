@@ -1,3 +1,3 @@
-    bucket = "my-robo-state"
-    key    = "env/prod/terraform.tfstate"
-    region = "us-east-1"
+bucket = "my-robo-state"
+key    = "env/prod/terraform.tfstate"
+region = "us-east-1"
