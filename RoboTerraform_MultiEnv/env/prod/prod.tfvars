@@ -12,15 +12,15 @@ comp ={
         instance_type = "t2.micro"
     }
 
-    mysql = {
+    #mysql = {
         instance_type = "t2.micro"
     }
 
-    redis = {
+    #redis = {
         instance_type = "t2.micro"
     }
 
-    user = {
+    #user = {
         instance_type = "t2.micro"
     }
 
