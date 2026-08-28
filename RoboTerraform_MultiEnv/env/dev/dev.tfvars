@@ -2,7 +2,7 @@ env_name = "dev"
 ami_name = "DevOps-LabImage-RHEL9" #DevOps-LabImage-RHEL9-2026
 sg_name = "launch-wizard-1"
 domain_name = "robobuy.site"
-private_zone = true
+private_zone = false
 
 comp ={
 
