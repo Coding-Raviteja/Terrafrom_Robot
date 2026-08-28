@@ -1,6 +1,8 @@
 env_name   = "prod"
 ami_name   = "DevOps-LabImage-RHEL9-2026"
 sg_name      = "launch-wizard-1"
+domain_name = "robobuy.site"
+private_zone = true
 
 comp ={
     catalogue = {
