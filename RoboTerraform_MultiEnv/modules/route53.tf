@@ -3,5 +3,5 @@ resource "aws_route53_record" "DNS" {
     name    = "${var.name}-${var.env_name}"
     type    = "A"
     ttl     = "20"
-    records = var.record_values
+    records = [aws_instance.my_ec2.private_ip]
 }
