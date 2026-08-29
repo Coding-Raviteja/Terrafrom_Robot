@@ -39,7 +39,7 @@ comp ={
 
     #payment = {
         #instance_type = "t2.micro"
-    #}
+    }
 
     frontend = {
         instance_type = "t2.micro"
