@@ -1,6 +1,6 @@
 resource "null_resource" "example" {
   provisioner "local-exec" {
-    command = "echo Hello, World! && rm -rf /tmp/example.txt && rm -rf /tmp/Raviteja"
+    command = "echo Hello, World! && rm -rf /tmp/example.txt"
   }
   
 }
