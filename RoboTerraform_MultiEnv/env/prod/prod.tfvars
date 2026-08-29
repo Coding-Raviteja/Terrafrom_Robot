@@ -21,9 +21,9 @@ comp ={
        # instance_type = "t2.micro"
     #}
 
-    #user = {
-    #    instance_type = "t2.micro"
-    #}
+    user = {
+        instance_type = "t2.micro"
+    }
 
     cart = {
         instance_type = "t2.micro"
