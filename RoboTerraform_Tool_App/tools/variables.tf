@@ -22,6 +22,10 @@ variable "env_name" {
     default = "tool"
 }
 
-variable "comp" {
-  type = map(any)
+variable "tool" {
+    default = {
+        vault = {
+            instance_type = "t2.micro"
+        }
+    }
 }
