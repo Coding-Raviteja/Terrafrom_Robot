@@ -30,21 +30,17 @@ comp ={
         instance_type = "t2.micro"
     }
 
-    mysql = {
-        instance_type = "t2.micro"
-    }
-
     shipping = {
         instance_type = "t2.micro"
     }
 
-    rabbitmq = {
-        instance_type = "t2.micro"
-    }
+    #rabbitmq = {
+        #instance_type = "t2.micro"
+    #}
 
-    payment = {
-        instance_type = "t2.micro"
-    }
+    #payment = {
+        #instance_type = "t2.micro"
+    #}
 
     frontend = {
         instance_type = "t2.micro"
