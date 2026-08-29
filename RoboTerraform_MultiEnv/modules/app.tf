@@ -11,7 +11,7 @@ resource "null_resource" "main" {
         inline = [
             "pip3.11 install ansible",
             "type ansible-playbook -v",
-            "ansible-pull -U https://github.com/Coding-Raviteja/Anisible_Robot.git 
+            "ansible-pull -U https://github.com/Coding-Raviteja/Anisible_Robot.git Robot/roboshop-pull.yml -e comp=${var.name} -e env=${var.env_name}"
         ]
     }
   
