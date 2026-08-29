@@ -7,6 +7,7 @@ module "tools" {
      instance_type = ""
      ami_name = var.ami_name
      sg_name = var.sg_name
+     private_zone = var.private_zone
      name = each.key
   
 }

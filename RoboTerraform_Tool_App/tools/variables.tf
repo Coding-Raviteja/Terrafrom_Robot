@@ -13,7 +13,10 @@ variable "domain_name" {
     default = "robobuy.site"
   
 }
-
+variable "private_zone" {
+    type = bool
+    default = false
+}
 variable "env_name" {
     type = string
     default = "tool"
