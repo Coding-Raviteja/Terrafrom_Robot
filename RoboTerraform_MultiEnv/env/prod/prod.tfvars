@@ -29,9 +29,9 @@ comp ={
         instance_type = "t2.micro"
     }
 
-    shipping = {
-        instance_type = "t2.micro"
-    }
+    #shipping = {
+        #instance_type = "t2.micro"
+    #}
 
     #rabbitmq = {
         #instance_type = "t2.micro"
