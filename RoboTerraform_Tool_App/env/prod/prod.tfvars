@@ -17,6 +17,7 @@ comp ={
 
     redis = {
         instance_type = "t2.micro"
+        internal = true
     }
 
     user = {
