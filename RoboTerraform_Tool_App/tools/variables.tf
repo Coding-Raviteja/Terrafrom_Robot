@@ -31,5 +31,3 @@ variable "tools" {
     }
 }
 
-variable "internal" {  
-}
