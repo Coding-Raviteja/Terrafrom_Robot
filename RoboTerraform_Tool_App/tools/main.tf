@@ -10,6 +10,5 @@ module "tools" {
      sg_name = var.sg_name
      private_zone = var.private_zone
      name = each.key
-     internal = each.value["internal"]
   
 }

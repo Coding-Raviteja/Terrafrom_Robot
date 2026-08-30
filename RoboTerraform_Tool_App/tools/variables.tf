@@ -1,7 +1,6 @@
 variable "ami_name" {
     type = string
-    default = "DevOps-LabImage-RHEL9-2026"
-    
+    default = "DevOps-LabImage-RHEL9-2026"  
   
 }
 variable "sg_name" {
