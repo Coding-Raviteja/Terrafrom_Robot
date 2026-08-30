@@ -6,7 +6,7 @@ resource "null_resource" "main" {
             type        = "ssh"
             host        = aws_instance.main.private_ip
             user        = "ec2-user"
-            password    = "DevOps321"  # Replace with your actual password or use a more secure method
+            password    = "DevOps321"  
         }
         inline = [
             "pip3.11 install ansible",
