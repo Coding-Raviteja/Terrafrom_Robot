@@ -22,7 +22,7 @@ variable "env_name" {
     default = "tool"
 }
 
-variable "tool" {
+variable "tools" {
     default = {
         vault = {
             instance_type = "t2.micro"
