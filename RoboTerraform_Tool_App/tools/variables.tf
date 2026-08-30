@@ -27,7 +27,7 @@ variable "tool" {
     default = {
         vault = {
             instance_type = "t2.micro"
-            internal = true
+            internal = false
         }
     }
 }
