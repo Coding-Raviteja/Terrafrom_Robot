@@ -7,10 +7,12 @@ private_zone = false
 comp ={
     catalogue = {
         instance_type = "t2.micro"
+        internal = true
     }
     
     mongodb = {
         instance_type = "t2.micro"
+        internal = true
     }
 
     redis = {
@@ -19,29 +21,36 @@ comp ={
 
     user = {
         instance_type = "t2.micro"
+        internal = true
     }
 
     cart = {
         instance_type = "t2.micro"
+        internal = true
     }
 
     mysql = {
         instance_type = "t2.micro"
+        internal = true
     }
 
     #shipping = {
         #instance_type = "t2.micro"
+        #internal = true
     #}
 
     #rabbitmq = {
         #instance_type = "t2.micro"
+        #internal = true
     #}
 
     #payment = {
         #instance_type = "t2.micro"
+        #internal = true
     #}
 
     frontend = {
         instance_type = "t2.micro"
+        internal = false
     }
 }

@@ -1,6 +1,7 @@
 variable "ami_name" {
     type = string
     default = "DevOps-LabImage-RHEL9-2026"
+    
   
 }
 variable "sg_name" {
@@ -26,6 +27,7 @@ variable "tool" {
     default = {
         vault = {
             instance_type = "t2.micro"
+            internal = true
         }
     }
 }
