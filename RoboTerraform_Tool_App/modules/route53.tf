@@ -3,5 +3,5 @@ resource "aws_route53_record" "DNS" {
     name    = "${var.name}-${var.env_name}"
     type    = "A"
     ttl     = "20"
-    records = [aws_instance.main.private_ip]
+    records = ["${local.get_instance_ip}"]
 }
