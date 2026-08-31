@@ -12,7 +12,7 @@ resource "null_resource" "main" {
             "pip3.11 install ansible",
             "pip3.11 install hvac",
             "type ansible-playbook -v",
-            "ansible-pull -U https://github.com/Coding-Raviteja/Anisible_Robot.git Robot_v1/roboshop-pull.yml -e comp=${var.name} -e env=${var.env_name} "
+            "ansible-pull -U https://github.com/Coding-Raviteja/Anisible_Robot.git Robot_v1/roboshop-pull.yml -e comp=${var.name} -e env=${var.env_name} -e token=${var.token} "
         ]
     }
   
