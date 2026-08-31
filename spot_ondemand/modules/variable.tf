@@ -1,0 +1,10 @@
+variable "env_name" {}
+variable "instance_type" {}
+variable "ami_name" {}
+variable "sg_name" {}
+#variable "comp" {}
+variable "name" {}
+variable "domain_name" {}
+variable "private_zone" {}
+variable "internal" {}
+variable "vault_token" {}
