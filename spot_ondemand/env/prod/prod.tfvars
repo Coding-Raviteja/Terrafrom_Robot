@@ -1,57 +1,77 @@
-env_name   = "prod"
-ami_name   = "DevOps-LabImage-RHEL9-2026"
+env_name     = "prod"
+ami_name     = "DevOps-LabImage-RHEL9-2026"
 sg_name      = "launch-wizard-1"
-domain_name = "robobuy.site"
+domain_name  = "robobuy.site"
 private_zone = false
 
-comp ={
-    catalogue = {
-        instance_type = "t2.micro"
-        internal = true
-    }
-    
-    mongodb = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+comp = {
+  catalogue = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 1
+    spot_count      = 0
+  }
 
-    redis = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+  mongodb = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 1
+    spot_count      = 0
+  }
 
-    user = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+  redis = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 0
+    spot_count      = 1
+  }
 
-    cart = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+  user = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 1
+    spot_count      = 0
+  }
 
-    mysql = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+  cart = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 0
+    spot_count      = 1
+  }
 
-    # shipping = {
-    #     instance_type = "t2.micro"
-    #     internal = true
-    # }
+  mysql = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 1
+    spot_count      = 0
+  }
 
-    # rabbitmq = {
-    #     instance_type = "t2.micro"
-    #     internal = true
-    # }
+  shipping = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 0
+    spot_count      = 1
+  }
 
-    # payment = {
-    #     instance_type = "t2.micro"
-    #     internal = true
-    # }
+  rabbitmq = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 0
+    spot_count      = 1
+  }
 
-    frontend = {
-        instance_type = "t2.micro"
-        internal = false
-    }
+  payment = {
+    instance_type   = "t2.micro"
+    internal        = true
+    on_demand_count = 1
+    spot_count      = 0
+  }
+
+  frontend = {
+    instance_type   = "t2.micro"
+    internal        = false
+    on_demand_count = 0
+    spot_count      = 1
+  }
 }

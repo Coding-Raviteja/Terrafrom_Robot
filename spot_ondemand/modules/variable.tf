@@ -8,3 +8,5 @@ variable "domain_name" {}
 variable "private_zone" {}
 variable "internal" {}
 variable "vault_token" {}
+variable "on_demand_count" {}
+variable "spot_count" {}

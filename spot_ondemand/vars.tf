@@ -6,3 +6,5 @@ variable "comp" {}
 variable "domain_name" {}
 variable "private_zone" {}
 variable "vault_token" {}
+variable "on_demand_count" {}
+variable "spot_count" {}
