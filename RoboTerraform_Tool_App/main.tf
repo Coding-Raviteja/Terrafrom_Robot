@@ -11,4 +11,5 @@ module "ec2" {
     domain_name   = var.domain_name
     private_zone  = var.private_zone
     internal      = each.value["internal"]
+    vault_token  = var.vault_token
 }

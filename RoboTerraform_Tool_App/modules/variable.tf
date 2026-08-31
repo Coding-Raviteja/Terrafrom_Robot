@@ -7,4 +7,4 @@ variable "name" {}
 variable "domain_name" {}
 variable "private_zone" {}
 variable "internal" {}
-variable "token" {}
+variable "vault_token" {}

@@ -11,5 +11,6 @@ module "tools" {
      sg_name = var.sg_name
      private_zone = var.private_zone
      name = each.key
+     vault_token = var.vault_token
   
 }
