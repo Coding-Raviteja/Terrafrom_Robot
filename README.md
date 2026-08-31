@@ -7,3 +7,6 @@
   ],
   "root_token": "hvs.wDJfuil6IKDlvAP9CpYcbhAK"
 }
+
+
+ rm -rf .terraform* ; gp ; terraform init --backend-config=env/prod/state.tfvars ; terraform plan --var-file=env/prod/prod.tfvars -var vault_token=hvs.wDJfuil6IKDlvAP9CpYcbhAK ; terraform apply -auto-approve --var-file=env/prod/prod.tfvars -var vault_token=hvs.wDJfuil6IKDlvAP9CpYcbhAK
