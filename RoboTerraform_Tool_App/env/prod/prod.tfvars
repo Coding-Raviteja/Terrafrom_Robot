@@ -40,15 +40,15 @@ comp ={
         internal = true
     }
 
-    rabbitmq = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+    # rabbitmq = {
+    #     instance_type = "t2.micro"
+    #     internal = true
+    # }
 
-    payment = {
-        instance_type = "t2.micro"
-        internal = true
-    }
+    # payment = {
+    #     instance_type = "t2.micro"
+    #     internal = true
+    # }
 
     frontend = {
         instance_type = "t2.micro"
