@@ -27,8 +27,8 @@ variable "tools" {
         vault = {
             instance_type = "t2.micro"
             internal = false
-            on_demand_count = 0
-            spot_count = 1
+            on_demand_count = 1
+            spot_count = 0
         }
     }
 }
