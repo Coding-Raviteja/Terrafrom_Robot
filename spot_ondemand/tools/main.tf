@@ -12,5 +12,7 @@ module "tools" {
      private_zone = var.private_zone
      name = each.key
      vault_token = var.vault_token
+     spot_count = var.spot_count
+     on_demand_count = var.on_demand_count
   
 }

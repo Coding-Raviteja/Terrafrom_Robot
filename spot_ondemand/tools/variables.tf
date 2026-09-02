@@ -27,10 +27,20 @@ variable "tools" {
         vault = {
             instance_type = "t2.micro"
             internal = false
+            on_demand_count = 0
+            spot_count = 1
         }
     }
 }
 
 variable "vault_token" {}
+variable "spot_count" {
+    type = number
+    default = 0
+}
+variable "on_demand_count" {
+    type = number
+    default = 0
+}
 
 
