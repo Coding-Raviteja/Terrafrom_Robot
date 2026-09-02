@@ -10,3 +10,14 @@
 
 
  rm -rf .terraform* ; gp ; terraform init --backend-config=env/prod/state.tfvars ; terraform plan --var-file=env/prod/prod.tfvars -var vault_token=hvs.wDJfuil6IKDlvAP9CpYcbhAK ; terraform apply -auto-approve --var-file=env/prod/prod.tfvars -var vault_token=hvs.wDJfuil6IKDlvAP9CpYcbhAK
+
+
+ {
+  "keys": [
+    "3bf7f7a4f520023c26372ece6f57962ea8a5985858e5de6f7c1fec527ad66d64"
+  ],
+  "keys_base64": [
+    "O/f3pPUgAjwmNy7Ob1eWLqilmFhY5d5vfB/sUnrWbWQ="
+  ],
+  "root_token": "hvs.zMegMarfw18LUCss16uv2gPa"
+}
