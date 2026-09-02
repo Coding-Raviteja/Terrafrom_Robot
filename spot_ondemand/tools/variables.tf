@@ -34,13 +34,7 @@ variable "tools" {
 }
 
 variable "vault_token" {}
-variable "spot_count" {
-    type = number
-    default = 0
-}
-variable "on_demand_count" {
-    type = number
-    default = 0
-}
+
+
 
 
