@@ -8,8 +8,8 @@ comp = {
   catalogue = {
     instance_type   = "t2.micro"
     internal        = true
-    on_demand_count = 1
-    spot_count      = 0
+    on_demand_count = 0
+    spot_count      = 1
   }
 
   mongodb = {
@@ -22,8 +22,8 @@ comp = {
   redis = {
     instance_type   = "t2.micro"
     internal        = true
-    on_demand_count = 1
-    spot_count      = 0
+    on_demand_count = 0
+    spot_count      = 1
   }
 
   user = {
